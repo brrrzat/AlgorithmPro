@@ -5,9 +5,9 @@ public class q2 {
         int[] arr = {1,4,5,6,8,9};
         int result = binarySearch(arr, 6);
         if (result != -1) {
-            System.out.println("Элемент найден на позиции: " + result);
+            System.out.println("index of target: " + result);
         } else {
-            System.out.println("Элемент не найден.");
+            System.out.println("not found.");
         }
         
 }
